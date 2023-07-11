@@ -59,7 +59,7 @@ export default {
       } else {
         // 用户名密码合法 添加到数据库
         this.tips = ''
-        const res = request({
+        const res = await request({
           url: '/api/register',
           method: 'POST',
           data: {
@@ -67,7 +67,7 @@ export default {
             password: this.passWord
           }
         })
-
+        console.log(res)
         if (res.status === 1) {
           this.tips = '用户名已被占用！'
         } else {
