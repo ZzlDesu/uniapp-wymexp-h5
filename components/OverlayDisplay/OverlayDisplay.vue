@@ -1,3 +1,4 @@
+<!-- 叠加场景的图片组件 -->
 <template>
   <div
     :class="[

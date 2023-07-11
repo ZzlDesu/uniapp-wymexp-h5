@@ -1,3 +1,4 @@
+<!-- 关于页面 -->
 <template>
   <view>
     <view class="background">

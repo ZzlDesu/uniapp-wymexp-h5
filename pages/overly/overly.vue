@@ -1,3 +1,4 @@
+<!-- 叠加页面 -->
 <template>
   <view>
     <div class="display">

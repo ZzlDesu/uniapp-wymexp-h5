@@ -1,3 +1,4 @@
+<!-- 订单item组件 -->
 <template>
   <view class="orderitem-container">
     <div class="order-left">

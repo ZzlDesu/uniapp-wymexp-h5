@@ -1,3 +1,4 @@
+<!-- 注册页面 -->
 <template>
   <view class="reg-container">
     <div class="body">

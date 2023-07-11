@@ -1,3 +1,4 @@
+<!-- 场景组件 -->
 <template>
   <view>
     <section>

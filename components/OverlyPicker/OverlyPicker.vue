@@ -1,3 +1,4 @@
+<!-- 叠加选择组件 -->
 <template>
   <picker-view
     indicator-style="height: 50px;border: #f0f0f0 solid 3rpx"

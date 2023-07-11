@@ -1,3 +1,4 @@
+<!-- 用户页面 -->
 <template>
   <view>
     <section class="login" @click="loginHandler">
