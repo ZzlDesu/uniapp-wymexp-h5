@@ -14,4 +14,8 @@ export default {
 }
 </script>
 
-<style></style>
+<style lang="less" scoped>
+page {
+  background-color: #fff;
+}
+</style>

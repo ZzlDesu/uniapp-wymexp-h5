@@ -3,7 +3,7 @@
   <view class="login-container">
     <div class="body">
       <div class="img-box">
-        <img src="http://pic.yupoo.com/zzl-desu/37a938a7/68eba8aa.png" />
+        <img src="../../static/images/LogoAlpha.png" />
       </div>
       <h2>微荧幕体验馆</h2>
       <form @submit="submitHandler">
@@ -99,21 +99,22 @@ export default {
 </script>
 
 <style lang="less" scoped>
-.login-container {
+page {
   display: flex;
-  position: absolute;
   justify-content: center;
   align-items: center;
-  left: 0;
-  top: 0;
   width: 100%;
   height: 100%;
   background-color: #ffbb4d;
+}
+.login-container {
+  display: flex;
+  width: 600rpx;
+  height: 800rpx;
 
   .body {
     position: relative;
-    width: 85%;
-    height: 70%;
+    width: 100%;
     padding: 0 50rpx;
     background-color: #fff;
     border-radius: 30rpx;

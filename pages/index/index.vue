@@ -3,16 +3,16 @@
   <view>
     <!-- 头部 -->
     <header>
-      <img src="http://pic.yupoo.com/zzl-desu/7a3fc4cd/e9a9ed8a.jpg" />
+      <img src="../../static/images/LOGObg.jpg" />
     </header>
     <!-- 主体 -->
     <main>
       <div class="left" @click="leftHandler">
-        <img src="http://pic.yupoo.com/zzl-desu/5f9dbfbc/de6f3462.png" />
+        <img src="../../static/images/VRLOGO.png" />
         <span>场景定制</span>
       </div>
       <div class="right" @click="rightHandler">
-        <img src="http://pic.yupoo.com/zzl-desu/c677caec/74f4de8a.png" />
+        <img src="../../static/images/contributeLOGO.png" />
         <span>投稿成品</span>
       </div>
     </main>
@@ -87,6 +87,9 @@ export default {
 </script>
 
 <style lang="less" scoped>
+page {
+  background-color: #fff;
+}
 view {
   display: flex;
   flex-direction: column;

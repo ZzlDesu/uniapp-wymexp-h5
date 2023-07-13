@@ -164,6 +164,9 @@ export default {
 </script>
 
 <style lang="less" scoped>
+page {
+  background-color: #fff;
+}
 h3 {
   margin: 0 0 20rpx 90rpx;
 }

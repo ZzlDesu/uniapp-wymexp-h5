@@ -4,7 +4,7 @@
     <view class="background">
       <image
         class="background-img"
-        src="http://pic.yupoo.com/zzl-desu/7a3fc4cd/e9a9ed8a.jpg"
+        src="../../static/images/LOGObg.jpg"
         mode="widthFix"
       ></image>
     </view>
@@ -22,15 +22,18 @@ export default {
 }
 </script>
 
-<style lang="less">
-.background {
-  padding: 40rpx;
-  .background-img {
-    width: 100%;
+<style lang="less" scoped>
+page {
+  background-color: #fff;
+  .background {
+    padding: 40rpx;
+    .background-img {
+      width: 100%;
+    }
   }
-}
-.about-text {
-  padding-left: 40rpx;
-  padding-right: 40rpx;
+  .about-text {
+    padding-left: 40rpx;
+    padding-right: 40rpx;
+  }
 }
 </style>

@@ -75,6 +75,9 @@ export default {
 </script>
 
 <style lang="less" scoped>
+page {
+  background-color: #fff;
+}
 .display {
   display: flex;
   position: relative;

@@ -2,7 +2,7 @@
 <template>
   <view>
     <section class="login" @click="loginHandler">
-      <img src="http://pic.yupoo.com/zzl-desu/e207beed/45c5d14d.png" />
+      <img src="../../static/images/avatar.png" />
       <p v-if="username">{{ username }}</p>
       <p v-if="!username">点击头像登录</p>
     </section>
@@ -77,6 +77,9 @@ export default {
 </script>
 
 <style lang="less" scoped>
+page {
+  background-color: #fff;
+}
 .login {
   display: flex;
   flex-direction: column;

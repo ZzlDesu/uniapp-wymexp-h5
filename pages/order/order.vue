@@ -49,7 +49,7 @@ export default {
 }
 </script>
 
-<style lang="less">
+<style lang="less" scoped>
 page {
   background-color: #f2f3f4;
 }
