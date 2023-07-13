@@ -6,7 +6,21 @@
 - 由于本人能力有限，因此做不到支付功能，所以本项目没有设计支付。
 # 技术栈
 uniapp + vue2 + less
-# 效果展示
-[点击这里](http://103.151.217.190/)（请用手机模式查看）
+# 项目运行
+```shell
+#把项目克隆到本地
+git clone https://github.com/ZzlDesu/wymexp.git
+#或者
+git clone git@github.com:ZzlDesu/wymexp.git
+
+#在Hbuild X中依次点击 文件=>导入=>从本地目录导入
+#选择本地目录下的项目文件夹
+#安装依赖
+npm install
+
+#在Hbuild X中点击运行
+```
 # 接口文档
 [点击这里](https://github.com/ZzlDesu/wymexp/blob/main/API.md)
+# 效果展示
+[点击这里](http://103.151.217.190/)（请用手机模式查看）
