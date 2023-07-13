@@ -15,7 +15,7 @@ git clone git@github.com:ZzlDesu/wymexp.git
 
 #在Hbuild X中依次点击 文件=>导入=>从本地目录导入
 #选择本地目录下的项目文件夹
-#安装依赖
+#打开终端并安装依赖
 npm install
 
 #在Hbuild X中点击运行
